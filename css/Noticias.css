@@ -1,0 +1,36 @@
+#noticias {
+    margin-top: 50px;
+    background: rgb(44, 44, 44);
+}
+
+#noticias .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#noticias h4 {
+    text-align: center;
+    color: #fff;
+}
+
+#noticias article {
+    margin: 15px;
+}
+
+#noticias img {
+    width: 320px;
+    max-width: 320px;
+}
+
+@media (min-width: 768px) {
+    #noticias article {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #noticias article {
+        width: auto;
+    }
+}
